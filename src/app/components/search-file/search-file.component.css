@@ -1,30 +1,53 @@
 body{
     background-color: rgb(255, 255, 255);
     margin:0;
+    font-family: Arial;
 }
+
 hr{
     margin:0;
 }
-#txt{
-    height:50px; 
-    width:500px;
-    border-radius: 100px;
+*{
+    box-sizing: border-box;
+}
+form.srch input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 500px;
+    background: #f1f1f1;
+    border-radius:50px 0 0 50px ;
+  }
+  
+form{
+    text-align: center;
+}
+  form.srch button {
+    float: left;
+    width: 50px;
+    padding: 10px;
+    background: rgb(3, 80, 3);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius:0 50px 50px 0 ;
+  }
+  
+  form.srch button:hover {
+    background: rgb(1, 34, 1);
+    
+}
+  form.srch input:focus{
+        outline: none;   
+  }
+ 
 
-}
-#btn{
-    background-color: rgb(129, 212, 129);
-    border:0;
-    height: 50px;
-    width: 100px;
-    border-radius: 100px;
-}
-#btn:hover{
-    height:55px;
-    width:105px;
-    cursor:grab;
-}
 #dv{
     margin-top: 200px;
+    text-align: center;
 }
 #header{
     height:65px;
@@ -32,3 +55,10 @@ hr{
     margin:0;
     padding: 0;
 }
+
+
+
+
+
+
+
